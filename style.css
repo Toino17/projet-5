@@ -18,16 +18,39 @@ body{
     background-color: #3c3c3c;
 }
 
-.navbar{
-    background-color: #fec88a
+nav{
+    background-color: #fec88a;
+    font-size: 13px;
 }
 
-.searchButton{
-    width: 20px;
-    height: 25px;
+form {
+    border: 1px solid #a1393a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
     color: #fec88a;
-    background-color: #a1393a;
-    border: 1px solid #00B4CC;
-
 }
 
+button{
+    all: unset;
+    background-color:#a1393a ;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    all: unset;
+    background-color: #fec88a;
+    color: #a1393a;
+    padding-left: 15px;
+}
+
+h1{
+    text-align: center;
+}
