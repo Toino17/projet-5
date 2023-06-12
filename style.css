@@ -20,9 +20,10 @@ body{
 }
 
 nav{
-    background-color: #fec88a;
+
     font-size: 13px;
     height: 40px;
+    margin-bottom: 55px;
 }
 
 form {
@@ -34,13 +35,14 @@ form {
 
 svg{
     color: #fec88a;
+    transform: scale(1.2);
 }
 
 button{
     all: unset;
     background-color:#a1393a ;
-    height: 25px;
-    width: 25px;
+    height: 28px;
+    width: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,43 +52,95 @@ input{
     all: unset;
     background-color: #fec88a;
     color: #a1393a;
-    padding-left: 15px;
+    margin-right: 40px;
+    margin-left: 10px;
 }
 
-.achin{
-    
-    text-align: center;
-    border-top:1px solid #a1393a;
-    border-bottom: 1px solid #a1393a;
-}
+
 
 
 
 
 .navi nav {
     display: flex;
+    justify-content: center;
     justify-content: space-evenly;
     align-items: center;
+    height: 70px;
+    background-color: #fec88a;
+   
 
   }
   
- ul{
-    display:flex ;
-    align-content: center;
- }
 
-  li{
+  nav ul li{
     display: inline-block;
-    padding-right: 30px;
-    padding-left: 30px;
-    
-    
+    margin-right: 35px;
+    margin-left: 35px;
+    align-content: center;
+
+        
   }
 
+.searchbar {
+    margin-right: 75px;
+    
+}
 
 
 
-  .ssd{
+  .menu{
+    font-size: 14px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-left: 60px;
+    
+    
   }
+
+  .menu li a {
+    color: #a1393a;
+  }
+
+.article{
+    margin-bottom: 50px;
+}
+  .achin{
+    margin-top: 49px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+ 
+.mecard{
+    
+    margin-left: 10px;
+    
+}
+
+.cotedeboeuf{
+    margin-top:50px;
+}
+
+.cookiesesame{
+    margin-top: 50px;
+}
+
+.categories{
+    margin-top: 50px;
+}
+
+.biere{
+    margin-bottom: 25px;
+
+}
+
+.galerie{
+    margin-top: 50px;
+}
+
+h1{
+    border-top:1px solid #a1393a;
+    border-bottom: 1px solid #a1393a;
+}
