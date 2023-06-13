@@ -17,6 +17,7 @@ header{
 body{
     background-color: #3c3c3c;
 
+
 }
 
 nav{
@@ -104,9 +105,6 @@ input{
     color: #a1393a;
   }
 
-.article{
-    margin-bottom: 50px;
-}
   .achin{
     margin-top: 49px;
     margin-bottom: 49px;
@@ -121,6 +119,7 @@ input{
 
 .cotedeboeuf{
     margin-top:50px;
+    
 }
 
 .cookiesesame{
@@ -137,10 +136,183 @@ input{
 }
 
 .galerie{
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
-h1{
-    border-top:1px solid #a1393a;
+h5{
+
+     font-family: "Roboto";
+     color: #fec88a;
+     margin: 15px;
+
+}
+
+
+.galerietop{
+    margin-bottom: 18px;
+}
+
+.bgfooter{
+    background-color: black;
+    margin-top: 5vw;
+    height: 300px ;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    background-image: url(bg_footer.jpg);
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.ulf{
+    display: flex;
+    justify-content: end;
+}
+
+.ulf li{
+    margin:3%;
+    list-style-type: none;
+
+}
+
+.droite {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.adequat{
+    margin-top: 50px;
+}
+
+p {
+    text-align: right;
+    font-family: "Roboto";
+
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #a1393a;
     border-bottom: 1px solid #a1393a;
+    margin-bottom: 50px;
+}
+
+.listealcool{
+    padding: 0px;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.listealcool li{
+    margin: 5px
+}
+
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #a1393a;
+    border-bottom: 1px solid #a1393a;
+    margin-bottom: 15px;
+}
+
+.galerie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #a1393a;
+    border-bottom: 1px solid #a1393a;
+}
+
+.soupeparent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psoupe{
+    position: absolute;
+    border-top: 1px solid #fec88a;
+    border-bottom: 1px solid #fec88a;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: auto;  
+}
+
+.tsoupe{
+    color: #fec88a;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.saladeparent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textsalade{
+    position: absolute;
+    border-top: 1px solid #fec88a;
+    border-bottom: 1px solid #fec88a;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.psalade{
+    color: #fec88a;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.dessertparent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textdessert{
+    position: absolute;
+    border-top: 1px solid #fec88a;
+    border-bottom: 1px solid #fec88a;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pdessert{
+    color: #fec88a;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.card{
+    background-color: #c2c57e;
+}
+
+.card-text{
+    text-align: justify;
+    text-align: center;
 }

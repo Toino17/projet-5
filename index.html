@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -47,52 +48,70 @@
 
     <section class="ssd container d-flex justify-content-center">
         <div class="ssdimage col-9 row">
-            <img src="image/soupe.jpg" alt="soupe" class="soupe col-4">
-            <img src="image/salade.jpg" alt="salade" class="salade col-4">
-            <img src="image/dessert.jpg" alt="dessert" class="dessert col-4">
+
+
+            <div class="soupeparent col-4">
+                <img src="image/soupe.jpg" alt="..." class="soupe col-12">
+                <div class="psoupe col-12"><p class="tsoupe">SOUPE</p></div>
+            </div>
+            <div class="saladeparent col-4">   
+                <img src="image/salade.jpg" alt="..." class="salade col-12">
+                <div class="textsalade"><p class="psalade">SALADE</p></div>
+            </div> 
+            <div class="dessertparent col-4">
+                <img src="image/dessert.jpg" alt="..." class="dessert col-12">
+                <div class="textdessert"><p class="pdessert">DESSERT</p></div>
+            </div>
+        
+
 
             <div class="achin fluid-container row">
                 <div class="col-8 fluid-container">
                     <div class="col-12">
-                        <h1 class="article">Arcticles Recents</h1>
+                        <div class="titre"><h5 class="article">ARTICLE RECENTS</h5></div>
                         <div class="col-12 fluid-container row">
-                            <div class="col-12 card g-0 border-0 rounded-0">
+                            <div class="tacoscard col-12 card g-0 border-0 rounded-0 ">
                                 <img class="card-img-top rounded-0" src="tacos.jpg" alt="tacos">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h6 class="card-title">RECETTE</h6>
+                                    <h2 class="card-titledeux">CHICKEN TACOS</h2>
+                                    <h6 class="card-date">PAR JOHN DOE - 17 mars 2016</h6>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor fugiat corrupti unde, molestias eaque soluta dolores corporis atque perferendis consequatur deleniti sapiente vero accusamus suscipit nemo ullam ratione! Dolorum.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="card cotedeboeuf">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card cotedeboeuf g-0 border-0 rounded-0">
+                                    <img class="card-img-top rounded-0" src="cote_de_boeuf.jpg" alt="cote de boeuf" style="width: ;">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit longer.
+                                        <h6 class="card-title">RECETTE</h6>
+                                        <h2 class="card-titledeux">COTE DE BOEUF</h2>
+                                        <h6 class="card-date">PAR JOHN DOE - 20 AVRIL 2017</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio. Sint obcaecati, quo voluptas recusandae exercitationem dignissimos velit commodi hic tempora facilis.
                                         </p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card col-6 cotedeboeuf">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card col-6 border-0 g-0 cotedeboeuf rounded-0">
+                                <img class="card-img-top rounded-0" src="carrot.jpg" alt="carrotcake">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h6 class="card-title">RECETTE</h6>
+                                    <h2 class="card-titledeux">CARROT CAKE</h2>
+                                    <h6 class="card-date"> PAR JOHN DOE - 27 AVRIL 2017</h6>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam sequi, minima incidunt, minus, veniam amet dicta doloremque consequuntur veritatis.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
 
-                            <div class="card col-12 cookiesesame">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card col-12 border-0 rounded-0 g-0 cookiesesame">
+                                <img class="card-img-top border-0 rounded-0" src="cookies.jpg" alt="cookies">
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h6 class="card-title">RECETTE</h6>
+                                <h2 class="card-titledeux">COOKIE SESAME</h2>
+                                <h6 class="card-date">PAR JOHN DOE - 05 JUIN 2016</h6>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium voluptatum in sunt officia facere possimus, nisi quo officiis cupiditate odio ab sint distinctio repellendus dicta suscipit asperiores? Nam, quaerat provident?</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                         </div>
@@ -104,35 +123,35 @@
                 
              <div class="col-4">     
                 <div class="card mecard bg-dark text-white g-0 rounded-0">
-                    <img class="card-img rounded-0" src="me.jpg" alt="me">
+                    <img class="card-img rounded-0" src="me.jpg" alt="me" style="width: ;">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-title">Card title</h6>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
                 <div class="col-12">
-                    <h1 class="categories">CATEGORIES</h1>
-                    <ul>
+                    <div class="categories"><h5>CATEGORIES</h5></div>
+                    <ul class="listealcool">
                         <li>Alcool</li>
                         <li>Jus de fruit</li>
                         <li>Vive le bio</li>
                     </ul>
                 </div>
-                <div class="col-12 card mecard bg-dark text-white g-0 rounded-0 biere" style="width: 300px; height:377px;">
-                    <img class="card-img rounded-0" src="me.jpg" alt="me">
+                <div class="col-12 card mecard bg-dark text-white g-0 rounded-0 border-0 biere" style="width: 300px; height:377px;">
+                    <img class="card-img rounded-0" src="bieres.jpg" alt="bieres">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-title">Card title</h6>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
-                <div class="card mecard bg-dark text-white g-0 rounded-0" style="width: 300px; height:377px;">
-                    <img class="card-img rounded-0" src="me.jpg" alt="me">
+                <div class="card mecard bg-dark text-white g-0 rounded-0 border-0" style="width: 300px; height:377px;">
+                    <img class="card-img rounded-0" src="cafe.jpg" alt="cafe">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-title">Card title</h6>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p class="card-text">Last updated 3 mins ago</p>
@@ -140,15 +159,43 @@
                 </div>
                 
             </div>
-            <div class="col-12">
-                <h1 class="galerie">MA GALERIE PHOTO</h1>
-            </div>
-            
-            
 
+            
+            </div> 
+            <div class="fluid-container col-12">
+                <div class="galerie"><h5 class="text-center">MA GALERIE PHOTO</h5></div>
+                <div class="col row">
+                    <div class="galerietop row">
+                    <img src="hamburger_small.jpg" alt="hamburger" class="imghamburger col-4">
+                    <img src="wrap_small.jpg" alt="wrap_small" class="imgwrap col-4">
+                    <img src="gateau_small.jpg" alt="gateau_small" class="imggateau col-4">
+                </div> 
+                <div class="galeriebot row">  
+                    <img src="pancake_small.jpg" alt="pancake_small" class="imgpancake col-4">
+                    <img src="oeufs_small.jpg" alt="oeufs_small" class="imgoeuf col-4"> 
+                    <img src="poisson_small.jpg" alt="poisson_small" class="imgpoisson col-4">
+                </div>     
+                </div>    
+            </div>
         </div>
 
     </section>
+
+<footer>
+        <div class="adequat"><img src="logo_footer.png" alt="logo_footer"></div>
+    <div class="droite">
+    <ul class="ulf">
+        <li>BRUNCHS</li>
+        <li>SUCRE</li>
+        <li>SALE</li>
+        <li>BIO</li>
+        <li>BOISSONS</li>
+    </ul>
+    <p>La gastronomie est l'art d'utiliser la nourriture pour créer le bonheur.</p>
+    <p>Il n'y rien qui permette de condamner un gastronome, tant qu'il ne va pas jusqu'à l'indigestion.</p>
+    
+    </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

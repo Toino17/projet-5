@@ -1,8 +1,9 @@
-.navbar{
-    background-color: antiquewhite;
-    
+.image{
+    position:relative;
+
 }
 
-ul{
-    display: ;
+.soupe{
+    position: absolute;
+    top: 0;
 }
